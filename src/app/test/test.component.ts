@@ -1,5 +1,5 @@
 import { Component, OnInit } from '@angular/core';
-import { delay, Observable, of } from 'rxjs';
+import { concat, delay, Observable, of } from 'rxjs';
 
 @Component({
   selector: 'app-test',
